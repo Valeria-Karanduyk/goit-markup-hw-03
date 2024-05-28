@@ -80,6 +80,23 @@ color: #2e2f42;
 text-decoration: none;
 padding: 24px  0;
 display: block;
+position: relative;
+}
+
+.header-link-box{
+    color: #404bbf;
+}
+
+.header-link-box::after{
+content: "";
+border-radius: 2px;
+width: 48px;
+height: 4px;
+background: #404bbf;
+position: absolute;
+left: 0;
+bottom: -1px;
+display: block;
 }
 
 .header-link:hover,
